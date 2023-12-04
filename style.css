@@ -38,13 +38,14 @@ ul {
     color: white;
 }
 .nav-item :hover{
-    background-color: rgb(50, 127, 172);
+    background-color: rgb(91, 153, 201);
+    ;
 }
 .nav-link .nav-item a ul li .navbar-nav {
     display:inline;
 }
 .navbar-toggler {
-    background-color: rgb(50, 127, 172);
+    background-color: rgb(25,84,117);
 }
 .form-check-label .form-check-input ul li {
     display:inline;
@@ -85,7 +86,7 @@ p {
     display: none;
 }
 .image-container {
-    padding-top: 17px;
+    padding-top: 30px;
     max-width: 100%;
     position: relative;
     margin: auto;
@@ -121,7 +122,7 @@ p {
     color: white;
 }
 .dropdown-item:hover {
-    background-color: rgb(50, 127, 172);
+    background-color: rgb(31, 92, 138);
     color: white;
 }
 .text-center .logos .aboutdetail {
@@ -188,8 +189,8 @@ h4 {
     border: 1px solid rgb(25,84,117);
 }
 .btn:hover {
-    background-color: rgb(56, 124, 164); 
-    border: 1px solid rgb(56, 124, 164);
+    background-color: rgb(25,84,117);
+    border: 1px solid rgb(25,84,117);
 }
 .form-group {
     font-size: 15px;

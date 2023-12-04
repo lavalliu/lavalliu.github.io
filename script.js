@@ -30,7 +30,6 @@ t = setTimeout(showSlides, 5000);
 // function to store data from forms in objects
 function addReservation() {
 let reservations=[];
-alert("creating reservation")
         let reservation={
             Title: document.getElementById('inputTitle').value,
             Pax: document.getElementById('inputPersons').value,
@@ -52,7 +51,6 @@ alert("creating reservation")
             Vegan: document.getElementById('CheckVegan').value,
         }
         reservations.push(reservation);
-        alert('added' ,reservations);
         document.getElementById("myForm").reset();
         localStorage.setItem('Reservation', JSON.stringify(reservations));
 }
